@@ -1,16 +1,11 @@
-.container {
+.grid {
 	display: grid;
-	grid-template: repeat(16, 1fr)/ repeat(16, 1fr);
 	width: 800px;
 	height: 800px;
 	margin: 0 auto;
 }
 
-.body {
-	background-color: red;
-}
-
-.unit {
+.grid-item {
 	background-color: #dadae0;
 	border: 1px solid #616167;
 }
